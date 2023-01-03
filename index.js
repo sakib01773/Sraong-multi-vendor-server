@@ -957,7 +957,7 @@ app.get('/features', async(req,res)=>{
     const result=await featuresCollection.find({}).toArray()
     res.json(result)
 });
-
+// done 
 app.post('/fashion',async(req,res)=>{
     const value=req.body;
     console.log(value)
