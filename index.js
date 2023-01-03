@@ -763,7 +763,7 @@ async function run() {
 
 
 
-    //sslcommerz init
+    //sslcommerz init for done
 app.post('/init', async(req, res) => {
     // console.log(req.body)
     const email=req.body.cartProducts.map((data)=>data.buyerEmail)
