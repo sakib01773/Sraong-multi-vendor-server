@@ -48,7 +48,7 @@ async function run() {
             const result=await buyerCollection.insertOne(user);
             res.json(result)
         });
-
+// done 
         app.get('/postBuyer', async(req,res)=>{
             const result=await buyerCollection.find({}).toArray()
             res.json(result)
@@ -958,6 +958,7 @@ app.get('/features', async(req,res)=>{
     res.json(result)
 });
 // done maybe 
+
 app.post('/fashion',async(req,res)=>{
     const value=req.body;
     console.log(value)
