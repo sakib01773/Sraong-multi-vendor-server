@@ -72,6 +72,8 @@ async function run() {
 
         // admin all product show to ui 
         // get sharee 
+
+        // done 
     app.get("/adminShowproduct", async (req, res) => {
         const page = req.query.page;
         const size = parseInt(req.query.size);
